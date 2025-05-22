@@ -35,6 +35,11 @@ gcc -o reverse reverse.c
 ./reverse -c input.txt output.txt
 
 ```
+### Documentación  
+Puedes acceder a la propuesta, cronograma y referencias en la siguiente carpeta:  
+📂 [Documentos del proyecto](https://drive.google.com/drive/folders/1rsQ9DA81OBceGEDGNZS5XE2W3fZr1V9J?usp=sharing)
+
+
 ## Integrantes
 
 - Angi Sirley Hoyos
