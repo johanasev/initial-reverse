@@ -82,6 +82,12 @@ strcmp(), strcat(), strlen() → manejo de strings
 
 GUI con mensajes gráficos y flujo controlado
 
+### 📄 Documentación del proyecto
+
+Puedes acceder a la propuesta, cronograma, avances, pruebas y documentación completa del trabajo en el siguiente enlace de Google Drive:
+
+📂 [Ver carpeta en Google Drive](https://drive.google.com/drive/folders/1MXlgtsiB3nULAIhtrBrFd5WAwmQYrtf0?usp=sharing)
+
 
 
 
