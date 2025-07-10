@@ -1,46 +1,87 @@
-# Initial-reverse
+# Autoría
+- Johana Liseth Sevillano Herrera
+- Angie Paola Yarce Gómez
+- Angi Sirley Hoyos RUíz
 
-Proyecto desarrollado para la materia de **Sistemas Operativos**, basado en el repositorio [OSTEP Projects](https://github.com/remzi-arpacidusseau/ostep-projects).
+# Enlace al video
 
-Este programa implementa una utilidad básica en C que **invierte el contenido de un archivo de texto** por líneas. La herramienta se ejecuta desde la línea de comandos y permite comprender el manejo de archivos, buffers y operaciones de entrada/salida a bajo nivel.
 
----
+# Initial reverse
 
-## Objetivo
-
-Explorar el manejo de archivos en sistemas operativos mediante la implementación de un programa que invierta el contenido de archivos de texto.
-
----
-
-## Funcionalidad
-
-- Leer un archivo de texto (`input.txt`)
-- Opción para invertir:
-  - 🔁 Línea por línea (modo texto)
-- Guardar el resultado invertido en un nuevo archivo (`output.txt`)
+**Initial Reverse** es una aplicación escrita en lenguaje **C** que invierte el orden de las líneas de un archivo de texto. 
+El resultado se puede mostrar en consola o guardar en un archivo. 
+Además, el proyecto incluye una **interfaz gráfica (GUI) con GTK** para facilitar su uso sin necesidad de terminal.
 
 ---
 
-## Ejemplo de uso
+## Funcionalidad principal
+
+El programa realiza las siguientes operaciones:
+
+✅ Lee un archivo de texto línea por línea  
+✅ Usa memoria dinámica con `malloc`, `getline` y `strdup`  
+✅ Invierte el orden de las líneas  
+✅ Muestra el resultado en consola o lo guarda en otro archivo  
+✅ Informa si el archivo está vacío o no existe  
+✅ Tiene una interfaz gráfica amigable con GTK
+
+---
+
+## 📦 Estructura del proyecto
+
+initial_reverse/
+├── main.c // Lógica del programa en consola
+├── gui.c // Interfaz gráfica con GTK
+├── Makefile // Automatiza compilación y ejecución
+├── input.txt // Archivo de prueba
+└── README.md // Este archivo
+
+## Requisitos
+
+- Sistema operativo: Linux (o WSL en Windows)
+- Compilador: `gcc`
+- GTK 3 para interfaz gráfica:
 
 ```bash
-# Compilar
-gcc -o reverse reverse.c
-
-# Ejecutar en modo por líneas
-./reverse -l input.txt output.txt
-
-# Ejecutar en modo por caracteres
-./reverse -c input.txt output.txt
-
+sudo apt update
+sudo apt install build-essential libgtk-3-dev
 ```
-### Documentación  
-Puedes acceder a la propuesta, cronograma y referencias en la siguiente carpeta:  
-📂 [Documentos del proyecto](https://drive.google.com/drive/folders/1rsQ9DA81OBceGEDGNZS5XE2W3fZr1V9J?usp=sharing)
+
+---
+
+## 📦 Compilación
+Compilar versión de consola: make
+Compilar interfaz gráfica (GTK): make gui
+
+## ▶️ Ejecución
+Consola: ./initial_reverse input.txt
+Guardar archivo de salida: ./initial_reverse input.txt -o salida.txt
+
+## 🖼️ Interfaz Gráfica (GTK)
+Ejecutar: ./gui_reverse
+
+## Funciones de C utilizadas
+fopen(), fclose() → manejo de archivos
+
+getline() → lectura dinámica de líneas
+
+malloc(), realloc(), free() → gestión de memoria
+
+strdup() → duplicación segura de cadenas
+
+fprintf() → impresión a consola o archivo
+
+strcmp(), strcat(), strlen() → manejo de strings
+
+## ✅ Validaciones incluidas
+❌ Archivo de entrada inexistente → mensaje de error
+
+⚠️ Archivo vacío → advertencia
+
+✔ Guardado exitoso → mensaje de confirmación
+
+GUI con mensajes gráficos y flujo controlado
 
 
-## Integrantes
 
-- Angi Sirley Hoyos
-- Angie Yarce
-- Johana Sevillano
+
