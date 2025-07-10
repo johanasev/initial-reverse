@@ -88,6 +88,13 @@ Puedes acceder a la propuesta, cronograma, avances, pruebas y documentación com
 
 📂 [Ver carpeta en Google Drive](https://drive.google.com/drive/folders/1MXlgtsiB3nULAIhtrBrFd5WAwmQYrtf0?usp=sharing)
 
+### 🎥 Video de demostración
+
+Puedes ver la ejecución del programa y su explicación en el siguiente video:
+
+▶️ [Ver en YouTube](https://youtu.be/dS2qUvXV7Ds)
+
+
 
 
 
