@@ -2,7 +2,7 @@
 
 Proyecto desarrollado para la materia de **Sistemas Operativos**, basado en el repositorio [OSTEP Projects](https://github.com/remzi-arpacidusseau/ostep-projects).
 
-Este programa implementa una utilidad básica en C que **invierte el contenido de un archivo de texto**, ya sea por caracteres o por líneas. La herramienta se ejecuta desde la línea de comandos y permite comprender el manejo de archivos, buffers y operaciones de entrada/salida a bajo nivel.
+Este programa implementa una utilidad básica en C que **invierte el contenido de un archivo de texto** por líneas. La herramienta se ejecuta desde la línea de comandos y permite comprender el manejo de archivos, buffers y operaciones de entrada/salida a bajo nivel.
 
 ---
 
@@ -17,7 +17,6 @@ Explorar el manejo de archivos en sistemas operativos mediante la implementació
 - Leer un archivo de texto (`input.txt`)
 - Opción para invertir:
   - 🔁 Línea por línea (modo texto)
-  - 🔁 Carácter por carácter (modo binario)
 - Guardar el resultado invertido en un nuevo archivo (`output.txt`)
 
 ---
