@@ -92,7 +92,7 @@ Puedes acceder a la propuesta, cronograma, avances, pruebas y documentación com
 
 Puedes ver la ejecución del programa y su explicación en el siguiente video:
 
-▶️ [Ver en YouTube](https://youtu.be/dS2qUvXV7Ds)
+▶️ [Ver en YouTube](https://youtu.be/MitDBOpUteA)
 
 
 
